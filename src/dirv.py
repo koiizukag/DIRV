@@ -33,9 +33,7 @@ class DIRV:
                     ctr = self.clicks[item_id] / self.imps[item_id]
                     mu = np.mean(values)
                     score += ap * ctr * mu
-                    print(item_id, ap * ctr, mu)
                     ap *= 1 - ctr
-            print("")
             scores.append(score)
         return scores
 
