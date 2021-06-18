@@ -5,4 +5,3 @@ class Ranking:
 
     def item(self, idx):
         return self.ranking[idx]
-
